@@ -28,23 +28,23 @@ for instance, wheels, lamps, auto logo and so on. You can find our definition of
 ![definetion](figure/keypoint.jpg)
 
 	1|left-front wheel|11|left rear-view mirror
-	:---:---:---:---:
+	:---:|:---:|:---:|:---:
 	2|left-back wheel|12|right rear-view mirror
-	:---:---:---:---:
+	:---:|:---:|:---:|:---:
 	3|right-front wheel|13|right-front corner of vehicle top
-	:---:---:---:---:
+	:---:|:---:|:---:|:---:
 	4|right-back wheel|14|left-front corner of vehicle top
-	:---:---:---:---:
+	:---:|:---:|:---:|:---:
 	5|right fog lamp|15|left-back corner of vehicle top
-	:---:---:---:---:
+	:---:|:---:|:---:|:---:
 	6|left fog lamp|16|right-back corner of vehicle top
-	:---:---:---:---:
+	:---:|:---:|:---:|:---:
 	7|right headlight|17|left rear lamp
-	:---:---:---:---:
+	:---:|:---:|:---:|:---:
 	8|left headlight|18|right rear lamp
-	:---:---:---:---:
+	:---:|:---:|:---:|:---:
 	9|front auto logo|19|rear auto logo
-	:---:---:---:---:
+	:---:|:---:|:---:|:---:
 	10|front license plate|20|rear license plate
 
 ### Orientation's definition
@@ -52,19 +52,19 @@ for instance, wheels, lamps, auto logo and so on. You can find our definition of
 We classify the orientation of a vehicle into 8 categories, according to which face(s) of the vehicle is visible in this view :
 
 	0|front 
-	:---:---:
+	:---:|:---:
 	1|rear
-	:---:---:
+	:---:|:---:
 	2|left
-	:---:---:
+	:---:|:---:
 	3|left front
-	:---:---:
+	:---:|:---:
 	4|left rear
-	:---:---:
+	:---:|:---:
 	5|right
-	:---:---:
+	:---:|:---:
 	6|right front
-	:---:---:
+	:---:|:---:
 	7|right rear
 
 ### Annotation file format
