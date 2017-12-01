@@ -27,6 +27,13 @@ We defined 20 key points in a vehicle, which we think are the most discriminativ
 for instance, wheels, lamps, auto logo and so on. You can find our definition of the 20 key points in the figure and the table bellow.
 
 ![definetion](figure/keypoint.jpg)
+|File  | Description | 
+| --------   | -----  |
+|/bounding_box_test  | The gallery images. We retrieve a query from this image pool.|
+|/bounding_box_train  | The training images. This dir contains the images from 702 different identities.|
+|/query  | The query images. Each of them is from different identities in different cameras.|
+
+
 |index |location |index |location |
 |:---:|:------:|:---:|:------:|
 |1 |left-front wheel |11 |left rear-view mirror |
