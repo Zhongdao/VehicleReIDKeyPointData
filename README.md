@@ -27,11 +27,6 @@ We defined 20 key points in a vehicle, which we think are the most discriminativ
 for instance, wheels, lamps, auto logo and so on. You can find our definition of the 20 key points in the figure and the table bellow.
 
 ![definetion](figure/keypoint.jpg)
-|File  | Description | 
-| --------   | -----  |
-|/bounding_box_test  | The gallery images. We retrieve a query from this image pool.|
-|/bounding_box_train  | The training images. This dir contains the images from 702 different identities.|
-|/query  | The query images. Each of them is from different identities in different cameras.|
 
 
 |index |location |index |location |
@@ -51,15 +46,15 @@ for instance, wheels, lamps, auto logo and so on. You can find our definition of
 
 We classify the orientation of a vehicle into 8 categories, according to which face(s) of the vehicle is visible in this view :
 
-	0|front 
-	:---:|:---:
-	1|rear
-	2|left
-	3|left front
-	4|left rear
-	5|right
-	6|right front
-	7|right rear
+0|front 
+:---:|:---:
+1|rear
+2|left
+3|left front
+4|left rear
+5|right
+6|right front
+7|right rear
 
 ### Annotation file format
 
