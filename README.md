@@ -7,17 +7,6 @@ It contains over 50,000 images of 776 vehicles captured by 20 cameras covering a
 This repo has annotations of **key point location** and **vehicle orientation** for VeRi-776 dataset, which is used in our 
 *ICCV'17* paper [Orientation Invariant Feature Embedding and Spatial Temporal Regularization for Vehicle Re-identification](http://openaccess.thecvf.com/content_ICCV_2017/papers/Wang_Orientation_Invariant_Feature_ICCV_2017_paper.pdf).
 
-### Citation
-
-If you find this repo useful in your research, please consider to cite:
-
-	@InProceedings{Wang_2017_ICCV,
-		author = {Wang, Zhongdao and Tang, Luming and Liu, Xihui and Yao, Zhuliang and Yi, Shuai and Shao, Jing and Yan, Junjie and Wang, Shengjin and Li, Hongsheng and Wang, Xiaogang},
-		title = {Orientation Invariant Feature Embedding and Spatial Temporal Regularization for Vehicle Re-Identification},
-		booktitle = {The IEEE International Conference on Computer Vision (ICCV)},
-		month = {Oct},
-		year = {2017}
-	}
 
 ### Get VeRi-776 dataset
 Please refer to [this repo](https://github.com/VehicleReId/VeRidataset).
@@ -63,6 +52,19 @@ In each line in the annotation file, the format is:
 img_path x1 y1 x2 y2 ... x20 y20 orien
 ```
 ```(x_i,y_i)``` is the location of the *i*th key point of a vehicle, and ```orien``` is the orientation label.
+
+
+### Citation
+
+If you find this repo useful in your research, please consider to cite:
+
+	@InProceedings{Wang_2017_ICCV,
+		author = {Wang, Zhongdao and Tang, Luming and Liu, Xihui and Yao, Zhuliang and Yi, Shuai and Shao, Jing and Yan, Junjie and Wang, Shengjin and Li, Hongsheng and Wang, Xiaogang},
+		title = {Orientation Invariant Feature Embedding and Spatial Temporal Regularization for Vehicle Re-Identification},
+		booktitle = {The IEEE International Conference on Computer Vision (ICCV)},
+		month = {Oct},
+		year = {2017}
+	}
 
 ### Contact
 Please concact Zhongdao Wang (wcd17@mails.tsinghua.edu.cn) if you have questions about the annotations.
